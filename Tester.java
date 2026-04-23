@@ -36,16 +36,20 @@ public class Tester {
 
         System.out.println();
         System.out.println();
+
         // Membuat 3 objek Node secara terpisah
+
         Node n1 = new Node(5);
         Node n2 = new Node(15);
         Node n3 = new Node(25);
 
         // Menghubungkan secara manual: n1 -> n2 -> n3
+
         n1.setNext(n2);
         n2.setNext(n3);
 
         // Memasukkan n1 sebagai head ke dalam LinkedList
+        
         LinkedList listManual = new LinkedList();
         listManual.head = n1;
 
